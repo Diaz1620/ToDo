@@ -1,0 +1,44 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    /* background-color: lightgray; */
+}
+
+h1 {
+    color: white;
+    background-color: rgb(5, 79, 109);
+    text-align: center;
+}
+
+.capture-form {
+    padding: 1rem;
+    width: 37rem;
+    border: 2px solid #bbb;
+    box-shadow: 0 2px 4px #c0c0c0;
+    border-radius: 6px;
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+.todo-item {
+    border: 1px solid rgb(179, 179, 179);
+    margin: 10px 50px;
+    padding: 10px 30px;
+    color: #333;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.todo-item:hover {
+    border-color: rgb(182, 63, 33);
+    color: #000;
+    box-shadow: 0 2px 4px #777777;
+    cursor: pointer;
+}
+
+.todo-item h5 {
+    display: inline-block;
+    width: 90%;
+    
+}
+
